@@ -1,5 +1,69 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header-part {
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.main-content h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.main-content .color {
+    color: orange;
+}
+
+.main-content h4 {
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.main-content p {
+    text-align: justify;
+}
+
+.main-image img {
+    width: 500px;
+}
+
+.header-btn {
+    padding: 6px 20px;
+    background-color: #FA6B58;
+    width: 20%;
+    text-align: center;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.header-btn a {
+    color: #ffffff;
+}
+
+.header-btn:hover {
+    background-color: transparent;
+    border: 1px solid #FA6B58;
+}
+
+.header-btn a:hover {
+    color: #FA6B58;
+    text-decoration: none;
 }
